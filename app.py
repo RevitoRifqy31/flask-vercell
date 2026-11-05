@@ -21,6 +21,7 @@ def portal():
         "nama": "Rifky Alfansyah",
         "nim": "2401600007",
         "gelombang": os.environ.get("GELOMBANG", "Gelombang 1"),
+        "pengumuman": os.environ.get("PENGUMUMAN", "Pendaftaran gelombang 1 dibuka"),
         "versi": os.environ.get("VERSI", "v1"),
         "lingkungan": os.environ.get("VERCEL_ENV", "development"),
         "region": os.environ.get("VERCEL_REGION", "lokal"),
